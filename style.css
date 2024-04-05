@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#title {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+#gameBox {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 6px;
+    border: solid 7px;;
+    background-color: black;
+}
+
+.block {
+    background-color: white;
+    border: solid thin;
+    font-size: 128px;
+    font-weight: bold;
+    color: black;
+}
+
+.block:hover {
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+#start {
+    margin-top: 36px;
+    font-size: 24px;
+}
